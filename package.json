@@ -1,5 +1,5 @@
 {
-  "name": "vue-ipo-calculator",
+  "name": "vue-ipo-simulator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
