@@ -1,5 +1,9 @@
 # vue-ipo-simulator
 
+Demo: https://mleung07.github.io/vue-ipo-simulator/
+
+This is a simulator of IPO process build with Vue.JS and the style of Material Design.
+
 ## Project setup
 
 ```
