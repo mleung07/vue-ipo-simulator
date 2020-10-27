@@ -46,6 +46,10 @@
         <NumberInput v-model="duration" />
         <label>Duration (Day)</label>
       </div>
+      <div class="input-box result">
+        <span class="tag">Cash Required:</span>
+        <span>{{ formatNumber(cash_required) }}</span>
+      </div>
     </div>
     <div class="divider" />
     <div class="input-box result">
@@ -92,7 +96,7 @@ const SETTLEMENT_FEE = 0.002;
 export default {
   name: "Calculator",
   components: {
-    NumberInput,
+    NumberInput
   },
   computed: {
     net_cost: function() {
@@ -111,6 +115,9 @@ export default {
             (this.interest_rate / 100 / 365) *
             this.duration || 0
         : 0;
+    },
+    cash_required: function() {
+      return (this.net_cost * this.percentage) / 100;
     },
     buying_fee: function() {
       return this.parseIntFallback(
@@ -143,7 +150,7 @@ export default {
           (this.profit / (this.buying_cost + this.buying_fee)) * 100 || 0
         ).toFixed(2) + "%"
       );
-    },
+    }
   },
   data: function() {
     return {
@@ -156,7 +163,7 @@ export default {
       handling_fee: "",
       selling_commission: "",
       allocated: "",
-      selling_price: "",
+      selling_price: ""
     };
   },
   methods: {
@@ -164,14 +171,14 @@ export default {
       return (
         new Intl.NumberFormat("en", {
           style: "currency",
-          currency: "USD",
+          currency: "USD"
         }).format(amount) || 0
       );
     },
     parseIntFallback(number) {
       return isNaN(number) ? 0 : parseInt(number);
-    },
-  },
+    }
+  }
 };
 </script>
 
