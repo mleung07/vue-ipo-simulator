@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vue-ipo-simulator/precache-manifest.aa99049bee6a8f5d7fb6fc4f061fbdf0.js"
+  "/vue-ipo-simulator/precache-manifest.476d62fb10766b1351f1fbd26cd74dd6.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-ipo-simulator"});
