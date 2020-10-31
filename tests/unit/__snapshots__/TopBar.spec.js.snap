@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar.vue matches snapshot 1`] = `
+<div
+  class="header"
+>
+  <div
+    class="title"
+  >
+    IPO Simulator
+  </div>
+</div>
+`;

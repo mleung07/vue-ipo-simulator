@@ -1,15 +1,14 @@
-import { expect } from "chai";
-import { shallowMount } from "@vue/test-utils";
+import { shallowMount, mount } from "@vue/test-utils";
 import TopBar from "@/components/TopBar.vue";
 
 describe("TopBar.vue", () => {
-  let component;
-
-  beforeEach(() => {
-    component = shallowMount(TopBar);
+  it("renders title", () => {
+    const wrapper = shallowMount(TopBar);
+    expect(wrapper.text()).toMatch("IPO Simulator");
   });
 
-  it("renders with correct title", () => {
-    expect(component.text()).to.include("IPO Simulator");
+  it("matches snapshot", () => {
+    const wrapper = mount(TopBar);
+    expect(wrapper.element).toMatchSnapshot();
   });
 });

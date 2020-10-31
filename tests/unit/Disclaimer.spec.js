@@ -1,17 +1,16 @@
-import { expect } from "chai";
-import { shallowMount } from "@vue/test-utils";
+import { shallowMount, mount } from "@vue/test-utils";
 import Disclaimer from "@/components/Disclaimer.vue";
 
 describe("Disclaimer.vue", () => {
-  let component;
-
-  beforeEach(() => {
-    component = shallowMount(Disclaimer);
-  });
-
-  it("renders with correct title", () => {
-    expect(component.text()).to.include(
+  it("renders footer", () => {
+    const wrapper = shallowMount(Disclaimer);
+    expect(wrapper.text()).toMatch(
       "Disclaimer: The calculation is for reference only."
     );
+  });
+
+  it("matches snapshot", () => {
+    const wrapper = mount(Disclaimer);
+    expect(wrapper.element).toMatchSnapshot();
   });
 });

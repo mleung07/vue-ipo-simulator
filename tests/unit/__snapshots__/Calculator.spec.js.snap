@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator.vue matches snapshot 1`] = `
+<div
+  id="calculator"
+>
+  <div
+    class="input-box"
+  >
+    <input
+      required="required"
+      type="text"
+    />
+     
+    <label>
+      Shares Appiled
+    </label>
+  </div>
+   
+  <div
+    class="input-box"
+  >
+    <input
+      required="required"
+      type="text"
+    />
+     
+    <label>
+      Offering Price
+    </label>
+  </div>
+   
+  <div
+    class="input-box"
+  >
+    <input
+      required="required"
+      type="text"
+    />
+     
+    <label>
+      Shares Allocated
+    </label>
+  </div>
+   
+  <div
+    class="input-box"
+  >
+    <input
+      required="required"
+      type="text"
+    />
+     
+    <label>
+      Selling Price
+    </label>
+  </div>
+   
+  <div
+    class="input-box"
+  >
+    <input
+      required="required"
+      type="text"
+    />
+     
+    <label>
+      Handling Fee
+    </label>
+  </div>
+   
+  <div
+    class="input-box"
+  >
+    <input
+      required="required"
+      type="text"
+    />
+     
+    <label>
+      Selling Commission
+    </label>
+  </div>
+   
+  <div
+    class="input-box margin"
+  >
+    <div
+      class="selector"
+    >
+      <div
+        class="label"
+      >
+        Margin
+      </div>
+       
+      <div
+        class="switch"
+      >
+        <input
+          class="switch-input"
+          type="checkbox"
+        />
+         
+        <label
+          class="switch-label"
+        />
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="show-margin"
+  >
+    <div
+      class="input-box"
+    >
+      <input
+        required="required"
+        type="text"
+      />
+       
+      <label>
+        Interest Rate (%)
+      </label>
+    </div>
+     
+    <div
+      class="input-box"
+    >
+      <input
+        required="required"
+        type="text"
+      />
+       
+      <label>
+        Initial Deposit (%)
+      </label>
+    </div>
+     
+    <div
+      class="input-box"
+    >
+      <input
+        required="required"
+        type="text"
+      />
+       
+      <label>
+        Duration (Day)
+      </label>
+    </div>
+     
+    <div
+      class="input-box result"
+    >
+      <span
+        class="tag"
+      >
+        Cash Required:
+      </span>
+       
+      <span>
+        $0.00
+      </span>
+    </div>
+  </div>
+   
+  <div
+    class="divider"
+  />
+   
+  <div
+    class="input-box result"
+  >
+    <span
+      class="tag"
+    >
+      Cost:
+    </span>
+     
+    <span>
+      $0.00
+    </span>
+  </div>
+   
+  <div
+    class="input-box result"
+  >
+    <span
+      class="tag"
+    >
+      • Fee & Commission:
+    </span>
+     
+    <span>
+      $0.00
+    </span>
+  </div>
+   
+  <div
+    class="input-box result"
+    style="display: none;"
+  >
+    <span
+      class="tag"
+    >
+      • Margin Interest:
+    </span>
+     
+    <span>
+      $0.00
+    </span>
+  </div>
+   
+  <div
+    class="input-box result"
+  >
+    <span
+      class="tag"
+    >
+      Revenue:
+    </span>
+     
+    <span>
+      $0.00
+    </span>
+  </div>
+   
+  <div
+    class="input-box result"
+  >
+    <span
+      class="tag"
+    >
+      • Fee & Commission:
+    </span>
+     
+    <span>
+      $0.00
+    </span>
+  </div>
+   
+  <div
+    class="input-box result"
+  >
+    <span
+      class="tag"
+    >
+      Profit:
+    </span>
+     
+    <span>
+      $0.00
+    </span>
+  </div>
+   
+  <div
+    class="input-box result"
+  >
+    <span
+      class="tag"
+    >
+      Percentage:
+    </span>
+     
+    <span>
+      0.00%
+    </span>
+  </div>
+</div>
+`;

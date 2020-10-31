@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Disclaimer.vue matches snapshot 1`] = `
+<div
+  class="footer"
+>
+  <div
+    class="disclaimer"
+  >
+    
+    Disclaimer: The calculation is for reference only.
+  
+  </div>
+</div>
+`;

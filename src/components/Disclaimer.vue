@@ -1,12 +1,14 @@
 <template>
   <div class="footer">
-    <div class="disclaimer">Disclaimer: The calculation is for reference only.</div>
+    <div class="disclaimer">
+      Disclaimer: The calculation is for reference only.
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Disclaimer"
+  name: "Disclaimer",
 };
 </script>
 
